@@ -49,18 +49,7 @@ Below are shown the necessary python libraries to run the algorithms.
   ```sh
   python GirvanNewman.py
   ```
-## Output Samples
+## Demonstration
 
-In this section you can see the output of each algorithm on Zachary's karate club Network.
+In this section you can see an overview of the assistant as also you can watch a video which shows the function of the assistant.
 
-<h4>Louvain Algorithm</h4>
-  <img src="ResultsImages/louvainGraphKarate.PNG">
-  <img src="ResultsImages/LouvainResultsKarate.PNG">
-
-<h4>Label Propagation Algorithm</h4>
-  <img src="ResultsImages/LpaGraphKarate.PNG">
-  <img src="ResultsImages/LpaResultsKarate.PNG">
-
-<h4>Girvan Newman Algorithm</h4>
-  <img src="ResultsImages/GirvanNewmanGraphKarate.PNG">
-  <img src="ResultsImages/GirvanNewmanResultsKarate.PNG">
