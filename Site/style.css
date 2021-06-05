@@ -1,0 +1,229 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 120px;
+  background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px;
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
+
+/* The switch - the box around the slider */
+.switch {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.options {
+  font-weight: bold;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #fdfdfd;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+#submit-button {
+  margin-top: 10%;
+}
+
+.img-class:hover {
+  opacity: 30%;
+}
+
+.img-class {
+  padding-bottom: 1vw;
+  width: 200px;
+  float: left;
+  margin-bottom: 40px;
+}
+
+#modal {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+#show_button {
+  margin-bottom: 1vw;
+}
+
+#header-title {
+  max-width: 99%;
+}
+
+.w3-button {
+  font-weight: bold !important;
+}
+
+a {
+  color: #2196f3 !important;
+}
+
+#recordText {
+  border-radius: 5px;
+  margin-left: 15%;
+  width: 85%;
+}
+
+#explanation {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 100%;
+  border: 2px solid #2196f3;
+  font-weight: bold;
+}
+
+#statusTitle, #bellTitle {
+  width: fit-content !important;
+  background-color: #616161 !important;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#statusCont, #bellCont {
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #2196f3;
+}
+
+#bellTitle {
+  margin-top: 10px;
+}
+
+.w3-padding-64 {
+  padding-top: 14px !important;
+}
+
+#video {
+  float: left;
+  border: 1px #2196f3 solid;
+}
+
+#videoTitle {
+    float: left;
+    position: relative;
+    top: -10%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+#bellOn {
+  color: #00c700;
+}
+
+#bellOff {
+  color: #ff0000;
+}
+
+#continueBtn {
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #2196f3;
+  color: #fff;
+}
