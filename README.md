@@ -53,3 +53,4 @@ Below are shown the necessary python libraries to run the algorithms.
 
 In this section you can see an overview of the assistant as also you can watch a video which shows the function of the assistant.
 
+<img src="Images/Demo.png">
