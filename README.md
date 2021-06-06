@@ -4,10 +4,6 @@
 In this project we have implemented a cognitive assistant which is able to manage the doorbell of an office or room.
 Our assistant has the knowledge whether the user is busy with something or not, as well as will know if the person ringing the bell is a known person to the user, using face recognition mechanism. Likewise, the assistant will determine in what psychological condition the person ringing the door is (angry, sad, etc.) using Machine Learning, and then evaluate the severity of the situation. With all this information at its disposal, it will make its decision whether or not the doorbell will produce sound or the user will get notified.
 
-* Louvain Algorithm
-* Label Propagation Algorithm
-* Girvan-Newman Algorithm
-
 Authors:
 * Andreas Panayiotou
 * Theodoros Kyriakou
