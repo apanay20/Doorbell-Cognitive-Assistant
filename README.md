@@ -14,22 +14,12 @@ Authors:
 ## Prerequisites
 
 Below are shown the necessary python libraries to run the algorithms. 
-* NetworkX
-  ```sh
-  pip install networkx
-  ```
-* Matplotlib
-  ```sh
-  pip install matplotlib
-  ```
-* NumPy (Only for Louvain)
-  ```sh
-  pip install numpy
-  ```
-* scikit-learn (Used for evaluation measures)
-  ```sh
-  pip install scikit-learn
-  ```
+* SWI-Prolog
+
+* Java
+
+* A web server stack (ex. XAMPP)
+
   
 <!-- USAGE EXAMPLES -->
 ## Usage
