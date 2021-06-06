@@ -12,8 +12,7 @@ Authors:
 * Theodoros Kyriakou
 
 ## Prerequisites
-
-Below are shown the necessary python libraries to run the algorithms. 
+ 
 * SWI-Prolog
 * Gorgias Argumentation Framework ([Link](http://www.cs.ucy.ac.cy/~nkd/gorgias/))
 * Java
